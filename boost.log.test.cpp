@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
 /*
 Visual Studio 2013
 $ bootstrap
-$ b2 toolset=msvc-12.0 release
+$ b2 toolset=msvc-12.0 debug
 $ b2 toolset=msvc-12.0 release
 
 Release Output
