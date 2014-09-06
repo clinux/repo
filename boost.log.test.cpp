@@ -32,7 +32,7 @@ void log_init(const string &log_file)
 }
 
 //function name macro, __FUNCTION__, __func__
-#define	MY_LOG(lg) \
+#define MY_LOG(lg) \
 	BOOST_LOG(lg) << __FILE__ << " " << __LINE__ << " " << __FUNCTION__ << ": "
 
 int main(int argc, char *argv[])
