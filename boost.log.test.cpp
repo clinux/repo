@@ -6,13 +6,11 @@ http://lists.boost.org/boost-users/att-79396/test_logging.cpp
 
 //boost log headers
 #include <boost/log/core.hpp>
-#include <boost/log/trivial.hpp>
 #include <boost/log/expressions.hpp>
-#include <boost/log/sinks/text_file_backend.hpp>
-#include <boost/log/utility/setup/file.hpp>
-#include <boost/log/utility/setup/common_attributes.hpp>
 #include <boost/log/sources/logger.hpp>
 #include <boost/log/sources/record_ostream.hpp>
+#include <boost/log/utility/setup/file.hpp>
+#include <boost/log/utility/setup/common_attributes.hpp>
 
 namespace logging = boost::log;
 namespace src = boost::log::sources;
@@ -34,22 +32,21 @@ void log_init(const string &log_file)
 }
 
 //function name macro, __FUNCTION__, __func__
-#define	LOG(lg) \
+#define	MY_LOG(lg) \
 	BOOST_LOG(lg) << __FILE__ << " " << __LINE__ << " " << __FUNCTION__ << ": "
 
 int main(int argc, char *argv[])
 {
+	src::logger lg;
 	string log_file = argv[0];
 	log_init(log_file.substr(0, log_file.rfind('.')) + ".log");
 
-	src::logger lg;
-
-	LOG(lg) << "A trace severity message";
-	LOG(lg) << "A debug severity message";
-	LOG(lg) << "An informational severity message";
-	LOG(lg) << "A warning severity message";
-	LOG(lg) << "An error severity message";
-	LOG(lg) << "A fatal severity message";
+	MY_LOG(lg) << "A trace severity message";
+	MY_LOG(lg) << "A debug severity message";
+	MY_LOG(lg) << "An informational severity message";
+	MY_LOG(lg) << "A warning severity message";
+	MY_LOG(lg) << "An error severity message";
+	MY_LOG(lg) << "A fatal severity message";
 
 	return 0;
 }
