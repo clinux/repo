@@ -67,10 +67,10 @@ Release Output
 2014-Sep-06 10:49:54.350222 Source.cpp 52 main: A fatal severity message
 
 Debug Output
-2014-Sep-06 10:51:07.358350 c:\users\jianh\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 47 main: A trace severity message
-2014-Sep-06 10:51:07.358350 c:\users\jianh\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 48 main: A debug severity message
-2014-Sep-06 10:51:07.358350 c:\users\jianh\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 49 main: An informational severity message
-2014-Sep-06 10:51:07.358350 c:\users\jianh\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 50 main: A warning severity message
-2014-Sep-06 10:51:07.358350 c:\users\jianh\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 51 main: An error severity message
-2014-Sep-06 10:51:07.358350 c:\users\jianh\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 52 main: A fatal severity message
+2014-Sep-06 10:51:07.358350 c:\users\Guest\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 47 main: A trace severity message
+2014-Sep-06 10:51:07.358350 c:\users\Guest\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 48 main: A debug severity message
+2014-Sep-06 10:51:07.358350 c:\users\Guest\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 49 main: An informational severity message
+2014-Sep-06 10:51:07.358350 c:\users\Guest\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 50 main: A warning severity message
+2014-Sep-06 10:51:07.358350 c:\users\Guest\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 51 main: An error severity message
+2014-Sep-06 10:51:07.358350 c:\users\Guest\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\source.cpp 52 main: A fatal severity message
 */
