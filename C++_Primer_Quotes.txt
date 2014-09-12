@@ -1,0 +1,25 @@
+2.2.3
+
+Variable names normally are lowercase—index, not Index or INDEX.
+
+Like Sales_item, classes we define usually begin with an uppercase letter.
+
+Identifiers with multiple words should visually distinguish each other, for example, student_loan or studentLoan, not studentloan.
+
+3.4.1
+
+we used != rather than < .
+
+only a few library types, vector and string, have the subscript operator.
+
+all of the library containers have iterators that define the == and != operators.
+
+Most of those iterators do not have the < operator.
+
+By routinely using interiors and !=, we don’t have to worry about the precise type of container we’re processing.
+
+4.5
+
+The postfix operator must store the original value so that it can return the unincremented value as its result. If we don’t need the unincremented value, there’s no need for the extra work done by the postfix operator.
+
+for ints and pointers, the compiler can optimize away this extra work.
