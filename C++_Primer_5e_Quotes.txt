@@ -57,7 +57,7 @@ auto func(int i) -> int(*)[10];
 
 9.1
 
-The library containers almost certainly performs as well as (and 
+The library containers almost certainly perform as well as (and 
 usually better than) even the most carefully crafted alternatives.
 
 
