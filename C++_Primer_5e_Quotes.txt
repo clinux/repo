@@ -8,6 +8,13 @@ letter.
 Identifiers with multiple words should visually distinguish each other,
 for example, student_loan or studentLoan, not studentloan.
 
+
+2.3.2 
+
+Pointer value, it can point to the location just immediately past the 
+end of an object.
+
+
 3.4.1
 
 we used != rather than < .
@@ -23,6 +30,15 @@ Most of those iterators do not have the < operator.
 By routinely using interiors and !=, we don’t have to worry about the 
 precise type of container we’re processing.
 
+
+3.5.3
+
+We can obtain an off-the-end pointer.. We can take the address of the 
+nonexistent element one pass the last element of an array.
+
+We may not dereference or increment an off-the-end pointer.
+
+
 4.5
 
 The postfix operator must store the original value so that it can return 
@@ -31,3 +47,23 @@ unincremented value, there’s no need for the extra work done by the
 postfix operator.
 
 for ints and pointers, the compiler can optimize away this extra work.
+
+
+6.3.3 
+
+Using a Trailing Return Type
+auto func(int i) -> int(*)[10];
+
+
+9.1
+
+The library containers almost certainly performs as well as (and 
+usually better than) even the most carefully crafted alternatives.
+
+
+10.1
+
+int ia[] = {27, 210, 12, 47, 109, 83};
+int val = 83;
+int *result = find(begin(ia), end(ia), val);
+
