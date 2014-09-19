@@ -67,3 +67,8 @@ int ia[] = {27, 210, 12, 47, 109, 83};
 int val = 83;
 int *result = find(begin(ia), end(ia), val);
 
+
+11.3.4
+
+The fact that the subscript operator adds an element if it is not 
+already in the map allows us to write surprisingly succinct programs..
