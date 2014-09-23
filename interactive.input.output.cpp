@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
 	int num;
+
 	while (true)
 	{
 		while (cin >> num)
