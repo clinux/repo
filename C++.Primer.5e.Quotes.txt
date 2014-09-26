@@ -72,3 +72,15 @@ int *result = find(begin(ia), end(ia), val);
 
 The fact that the subscript operator adds an element if it is not 
 already in the map allows us to write surprisingly succinct programs..
+
+
+13.6.1
+
+int &&rr1 = 42;
+int &&rr2 = std::move(rr1);
+
+Calling move tells the compiler that we have an lvalue that we want to 
+treat as if it were an rvalue.
+
+the call to move promises that we do not intend to use rr1 again except 
+to assign to it or to destroy it.
