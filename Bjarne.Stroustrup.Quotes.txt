@@ -7,5 +7,5 @@ A: They are not slow.
 
 
 Q: C++ too slow?
-A: No. If you can afford to use C, you can afford to use C++
+A: No. If you can afford to use C, you can afford to use C++.
 —http://www.stroustrup.com/bs_faq.html
